@@ -10,22 +10,15 @@ html, body{
       background-size:100% 100%;
       background-repeat:no-repeat;
 color:white;font-size:17px;text-align:center;margin:0;overflow:hidden;}
-.info{overflow: hidden;position: fixed;position: absolute;top: 45%;left: 50%;font-size: 40px;font-family:"Courierb",;color: #b8b8b8;transform: translate(-50%, -50%);}
-.button{font-family:Courier ; background-color: rgba(0, 0, 0, 0);color: rgb(250, 248, 248);cursor: pointer;font-size: smaller;border: #b8b8b8;border-style: outset;border-color:rgb(148, 142, 142);background-size: cover;width: 145px;
-height: 60px;border:none;border-radius: 30px;border: 0px steelblue rgb(92, 106, 230);font-weight:bolder; }
+.info{overflow: hidden;position: fixed;position: absolute;top: 45%;left: 50%;font-family:"Courierb";transform: translate(-50%, -50%);}
+.button{font-family:Courier ; background-color: rgba(0, 0, 0, 0);color: rgb(255, 255, 255);cursor: pointer;font-size: smaller;width: 145px;
+height: 60px;border:none;font-weight:bolder; }
 button:hover {
-            box-shadow: 0 5px 50px 0 rgba(0, 0, 0, 0.884);
-            color: rgb(245, 245, 248);
-            border-radius: 30px;
-			background-color: #aa999900;
-      transform: scale(1.3);
+            color: rgb(255, 0, 0);
+      transform: scale(1.5);
 }
 .icon {
     position: absolute;
-    width: 130px;
-    height: 130px;
-    top: 13%;
-    right: 1%;
 } 
 .icone{
     width: 60px;
@@ -62,7 +55,7 @@ if (req.readyState == 4){
 <script src="webkit.js"></script>
 </head>
 <body>
-  <h1 id=msgs class="hue" style='font-size:38px;text-align:center;font-family:Courierb; text-shadow: 2px 2px 2px rgb(57, 40, 211);color:white;'>MOSTAPHA DARSH</h1>
+  <h1 id=msgs style='font-size:35px;text-align:center;font-family:Courierb; text-shadow: 2px 2px 2px rgb(57, 40, 211);color:white;'>MOSTAPHA DARSH</h1>
   <hr>
     <div style='font-size:25px;font-family:Courierb;text-shadow: 2px 2px 2px rgb(57, 40, 211);color:white;'>GOLDHEN</div>
     <button class="button"type="button"><img class="icone" src="img/hen.ico" onMouseOver="msgs.innerHTML='GoldHen v2.0b By SiSTRo'" onclick="load_goldhen(); return false" ><br>GoldHen V2.0B</button> Press <img src="img/x.ico"> Botton 
@@ -94,7 +87,7 @@ if (req.readyState == 4){
     <button class="button"type="button"><img class="icone" src="img/uart.ico" onMouseOver="msgs.innerHTML='Permanent UART 9.00 Port By Al Azif'"; onclick="load_uart(); return false"><br>Permanent UART</button>
     <button class="button"type="button"><img class="icone" src="img/kmd.ico" onMouseOver="msgs.innerHTML='Kernel Module Dumper 9.00 Port By Al Azif'"; onclick="load_moduledumper(); return false"><br>Module Dumper</button>
     <button class="button"type="button"><img class="icone" src="img/aslr.ico" onMouseOver="msgs.innerHTML='Disable ASLR 9.00 Port By Al Azif'"; onclick="load_disableaslr(); return false"><br>Disable ASLR</button>
-    <hr>
+    <br><br>
     <!----<button class="button"
     onclick=load_fanthreshold()><img class="icone" src="img/fan.png" /><br>Fan</button><select id="tempC" style="font-size:15px; height:30px; width:50px; background-color:#000000; color:#fff; border:1px solid #000000" ></select>&#176;C
     <hr>
@@ -111,7 +104,7 @@ if (req.readyState == 4){
     <button class="button"type="button"><img class="icone" src="img/gta.ico" onMouseOver="msgs.innerHTML='BeefQueef GTA V v1.33 By GraFfiX'"; onclick="load_gtavbeefqueef133(); return false"><br>BeefQueef v1.33</button>
     <button class="button"type="button"><img class="icone" src="img/gta.ico" onMouseOver="msgs.innerHTML='BeefQueef GTA V v1.34 By GraFfiX'"; onclick="load_gtavbeefqueef134(); return false"><br>BeefQueef v1.34</button>
     <button class="button"type="button"><img class="icone" src="img/gta.ico" onMouseOver="msgs.innerHTML='BeefQueef GTA V v1.38 By GraFfiX'"; onclick="load_gtavbeefqueef138(); return false"><br>BeefQueef v1.38</button>
-    <br>
+    <br><br>
     <div style='font-size:20px;font-family:Courierb;text-shadow: 2px 2px 2px rgb(57, 40, 211);color:white;'>RDR2 MODS</div>
     <button class="button"type="button"><img class="icone" src="img/2.ico" onMouseOver="msgs.innerHTML='Red Dead Redemption II Mod v1.00 By RF0oDxM0Dz'"; onclick="load_rdr2_100(); return false"><br>RDR II v1.00</button>
     <button class="button"type="button"><img class="icone" src="img/2.ico" onMouseOver="msgs.innerHTML='Red Dead Redemption II Mod v1.13 By RF0oDxM0Dz'"; onclick="load_rdr2_113(); return false"><br>RDR II v1.13</button>
